@@ -1,0 +1,88 @@
+body * p 
+{
+	font-family:Lucida Calligraphy ;
+}
+
+
+.header
+{
+	background-color:red;
+	width=100%;
+	height=30%;
+	padding: 20px;
+	text-align: center;
+}
+
+.startsidebar
+{
+	background-color:#808080;
+	height:30%;
+	width:25%;
+	float:left;
+}
+
+.loginform
+{
+	border:#008040 dashed 2px;
+}
+
+.loginform input[type="text"]
+{
+	background-color:yellow ;	
+}
+
+.loginform input[type="text"]:focus
+{
+	background-color:red ;
+}
+.none-bullet-list li
+{
+	list-style-type: none ;
+}
+
+.none-bullet-list  a
+{
+	background-color: #ff8080;
+	color: red ;
+	text-decoration:none ;
+	padding:2px;
+}
+
+.none-bullet-list  a:hover
+{
+	background-color: red;
+	color: #ff8080 ;
+	text-decoration:none ;
+	padding:2px;
+}
+.content
+{
+	background-color:#FFD700;
+	height:30%;
+	width:75%;
+	float:left;
+}
+.content h2
+{
+	font-weight: bold ;
+	font-family: fantasy ;
+	font size: 12px ;
+}
+.tabled-bordered 
+{
+	border: 2px solid #000 ;
+	width:17%;
+	margin-left: 10px;
+	margin-bottom:10px;
+}
+
+.titles
+{
+	padding: 5px;
+	text-align: center;
+}
+
+.titles .tabled-bordered
+{
+	display:table-cell ;	
+}
